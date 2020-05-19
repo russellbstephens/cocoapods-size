@@ -48,6 +48,10 @@ Measuring the size of RxSwift CocoaPod which is a swift pod:
 
 `./measure_cocoapod_size.py --cocoapods RxSwift --mode swift`
 
+Measuring the size of AFNetworking CocoaPod on a specific iOS platform:
+
+`./measure_cocoapod_size.py --cocoapods AFNetworking --platform 11.0`
+
 Finding the size between two Xcode projects:
 
 `./xcode_project_diff.py --source_project=PROJECT1 --source_scheme=PROJECT1_SCHEME --target_project=PROJECT2 --target_scheme=PROJECT2_SCHEME`
